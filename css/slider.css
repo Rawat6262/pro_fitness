@@ -1,0 +1,92 @@
+.container
+{
+    border:1px solid;
+    height:80%;
+    width:100%;
+    background-color:goldenrod;
+}
+.inner
+{
+    border:1px solid;
+    height:100%;
+    width:100%;
+    background-image:images('gym.jpg');
+
+}
+.ins
+{
+    border:1px solid;
+    height:15%;
+    width:100%;
+    background-color:black;
+    display:flex;
+
+}
+
+.ins  a  h3
+{
+    float:left;
+    height:15%;
+    width:100%;
+    padding:0%;
+}
+.ins h3{
+
+    padding: 4 40px;
+    margin:30px;
+}
+.foot
+{
+    border: 1px solid;
+    height: 50%;
+    width: 100%;
+}
+.rad
+{
+    border: 1px solid;;
+    height: 50%;
+    width: 50%; 
+    margin: auto;
+}
+.rid
+{
+    border: 1px solid;;
+    height: 50%;
+    width: 50%
+}
+.ra
+{
+    border: 1px solid;;
+    height: 68%;
+    width: 50%; 
+    margin: auto;
+}
+
+.rd
+{
+    border: 1px solid;;
+    height: 50%;
+    width: 50%; 
+    margin: auto;
+}
+.ad
+{
+    border: 1px solid;;
+    height: 50%;
+    width: 50%; 
+    margin: auto;
+}
+
+.aa
+{
+    border: 1px solid;;
+    height: 50%;
+    width: 50%; 
+    margin: auto;
+}
+.footer
+{
+    border:1px solid;
+    height: 20%;
+    width: 100%;
+}

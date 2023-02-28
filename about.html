@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <title>slider</title>
+        <link rel="stylesheet" type="text/css" href="css/slider.css">
+        <link rel="stylesheet" type="text/css" href="css/styles.css" media="all" />
+        <!-- <link rel="stylesheet" type="text/css" href="css/demo.css" media="all" /> -->
+        <!-- jQuery -->
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+        <!-- FlexSlider -->
+        <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+        <script type="text/javascript" charset="utf-8">
+        var $ = jQuery.noConflict();
+        $(window).load(function() {
+        $('.flexslider').flexslider({
+              animation: "fade"
+        });
+        
+        $(function() {
+            $('.show_menu').click(function(){
+                    $('.menu').fadeIn();
+                    $('.show_menu').fadeOut();
+                    $('.hide_menu').fadeIn();
+            });
+            $('.hide_menu').click(function(){
+                    $('.menu').fadeOut();
+                    $('.show_menu').fadeIn();
+                    $('.hide_menu').fadeOut();
+            });
+        });
+        });
+        </script>
+    </head>
+    <body style="background:black;">
+        
+        <div class="container">
+            <div class="inner">
+
+                <div class="slider_container">
+<header>
+    <nav>
+                  <u><p> <h1>about?</h1></p></u><br> 
+</nav>
+                </header>
+                <main>
+                    <section>
+                    <div class="flexslider">
+                      <ul class="slides">
+                        <li>
+                            <a href="http://www.freshdesignweb.com"><img src="images/slider/aboutus.jpg" alt="" title=""/></a>
+                            <div class="flex-caption">
+                                 <div class="caption_title_line"><h2>What is gym all about?</h2><p>“A modern day gymnasium (as gym used to be called way back in Ancient Greece) is a place for indoor physical workout where various equipment and machines are typically used. For some people, a typical gym is a place where you focus on weight lifting and similar activities.
+                                    ”</p></div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="http://www.freshdesignweb.com"><img src="images/slider/about.png" alt="" title=""/></a>
+                            <div class="flex-caption">
+                                 <div class="caption_title_line"><h2>“What are the benefits of gym?”</h2><p>“Exercise controls weight. Exercise can help prevent excess weight gain or help maintain weight loss. ...
+                                    Exercise combats health conditions and diseases.”</p></div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="http://www.freshdesignweb.com"><img src="images/slider/address.png" alt="" title=""/></a>
+                            <div class="flex-caption">
+                                 <div class="caption_title_line"><h1>"Address"</h1><p><h1>!!Punjab, ludhiana!!</h1></p></div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="http://www.freshdesignweb.com"><img src="images/slider/thanks.png" alt="" title=""/></a>
+                            <div class="flex-caption">
+                                 <div class="caption_title_line"><h1>“”</h1><p><h1>"Thanks for visiting us"</h1></p></div>
+                                </div>
+                        </li>
+                    </ul>
+                </div>
+               </div>
+            </div>
+    </section>
+</main>
+<footer>
+
+</footer>    
+</body>
+</html>
+
